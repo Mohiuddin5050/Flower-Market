@@ -59,3 +59,13 @@
 .text1{
   color: #000000;
 }
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+  .home{
+    display: none; 
+  }
+  .navbar{
+    padding: 0 15px;
+  }
+}
