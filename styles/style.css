@@ -444,6 +444,9 @@ footer{
 .join-section input{
   padding: 10px 10px 10px 10px; 
 }
+.join-section button{
+  padding: 10px;
+}
 footer{
   grid-template-columns: 1fr;
   padding: 10px;
