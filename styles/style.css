@@ -442,15 +442,15 @@ footer{
   padding-top: 80px;
 }
 .join-section input{
-  padding: 10px 10px 10px 10px; 
+  padding: 10px 0px 10px 10px; 
 }
 .join-section button{
-  padding: 10px;
+  padding: 10px 5px;
 }
 footer{
   grid-template-columns: 1fr;
   padding: 10px;
-  /* align-items: start; */
+  
 
 }
 .features-link {
