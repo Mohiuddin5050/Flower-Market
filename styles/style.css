@@ -7,6 +7,7 @@
   font-variation-settings:
     "wdth" 100;
 }
+
 .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -17,216 +18,320 @@
   margin: 0;
   padding: 0;
 }
-.container{
+
+.container {
   max-width: 1140px;
   margin: 0 auto;
   background-color: #fff;
-  
+
 }
+
 /* navbar section */
-.navbar{
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 30px;
-  
+
 }
+
 .navbar ul {
   display: flex;
   gap: 40px;
 }
-.navbar ul li{
+
+.navbar ul li {
   list-style: none;
 }
-.navbar ul li a{
+
+.navbar ul li a {
   text-decoration: none;
 }
-.home{
+
+.home {
   font-weight: 700;
-  
+
 }
-.text-color{
+
+.text-color {
   color: rgb(37, 36, 50);
 }
-.nav{
+
+.nav {
   color: #8987A1;
 }
-.flex{
+
+.flex {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
-.text1{
+
+.text1 {
   color: #000000;
 }
+
 /* banner section  */
-.banner-section{
+.banner-section {
   margin-top: 200px;
   margin-bottom: 100px;
   display: flex;
   /* text-align: left; */
   align-items: flex-end;
 }
-.banner-title{
+
+.banner-title {
   font-size: 4rem;
   font-weight: 700;
   color: #000000;
 }
-.text-decoration{
+
+.text-decoration {
   color: #E95A08;
 }
-.banner-description{
+
+.banner-description {
   font-size: 1.5rem;
   margin-top: 10px;
   color: rgba(0, 0, 0, 0.5)
 }
 
- /* card section  */
- .card-section{
+/* card section  */
+.card-section {
   text-align: center;
   margin-bottom: 50px;
- }
+}
 
- .card-title{
+.card-title {
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 15px;
- }
- .card-section p{
+}
+
+.card-section p {
   max-width: 890px;
   margin: 0 auto;
- }
- .card-content{
-  display:grid;
+}
+
+.card-content {
+  display: grid;
   grid-template-columns: repeat(4, 1fr);
   ;
-  
- }
- .card{
+
+}
+
+.card {
   text-align: center;
   margin-top: 20px;
-  
- }
- .card h5{
+
+}
+
+.card h5 {
   font-size: 1.25rem;
   font-weight: 500;
   color: #111111;
   margin-bottom: 10px;
- }
- 
- .card p{
+}
+
+.card p {
   font-size: 1.25rem;
   font-weight: 700;
   color: #111111;
   margin-bottom: 20px;
- }
- .btn-primary{
+}
+
+.btn-primary {
   font-weight: 500;
   color: rgb(255, 255, 255);
   background-color: rgb(233, 90, 8);
   border: none;
   padding: 15px 89.5px;
   margin-bottom: 20px
- }
+}
 
 /* Flower & Plants Lover */
-.flower-store{
+.flower-store {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 60px;
+  gap: 70px;
   margin-top: 180px;
   margin-bottom: 100px;
 }
-.position{
+
+.position {
   position: relative;
 }
-.badge{
+
+.badge {
   max-width: 280px;
   height: auto;
   position: absolute;
   margin-top: -725px;
   margin-left: 350px;
 }
-.flower-store-right h1{
+
+.flower-store-right h1 {
   font-size: 3rem;
   font-weight: 700;
   color: #000000;
   max-width: 440px;
   margin-bottom: 20px;
 }
-.flower-store-right ul li{
+
+.flower-store-right ul li {
   margin-bottom: 20px;
+}
+
+/* Latest  Deals */
+.Plants-banner {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
+
+
+.background-1,
+.background-2,
+.background-3 {
+  background-image: url("../assets/deal-bloom.png");
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  height: 200px;
+  /* overflow: hidden; */
+  color: white;
+}
+
+.background-2 {
+  background-image: url("../assets/deal-ana.png");
+}
+
+.background-3 {
+  background-image: url("../assets/deal-zabo.png");
+  height: 420px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.text-content h3{
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.text-content a{
+  font-weight: 500;
+  color: #fff;
+}
+.text-content1 h3{
+  font-size: 2.25rem;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.text-content1 a{
+  font-weight: 500;
+  color: #fff;
+  font-size: 1.5rem;
 }
 
 /* responsive media query */
 @media screen and (max-width: 576px) {
-  .home{
-    display: none; 
+  .home {
+    display: none;
   }
-  .navbar{
+
+  .navbar {
     padding: 0 15px;
   }
-  .navbar ul{
+
+  .navbar ul {
     padding-top: 40px;
   }
-  .banner-section{
+
+  .banner-section {
     flex-direction: column-reverse;
     margin-top: 50px;
     gap: 40px;
   }
-  .banner-title{
-     font-size: 2.5rem;
-     margin-bottom: 30px;
-     padding: 0 15px;
+
+  .banner-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    padding: 0 15px;
   }
-  .banner-description{
+
+  .banner-description {
     font-size: 1rem;
     padding: 0 15px;
   }
+
   .banner-section img {
     width: 100%;
     height: auto;
   }
-  .card-content{
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  padding: 0 10px;
+
+  .card-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 0 10px;
   }
-  .card{
-  text-align: center;
-  margin-top: 20px;
-  
- }
+
+  .card {
+    text-align: center;
+    margin-top: 20px;
+
+  }
+
   .card-content img {
     width: 100%;
     max-width: 100%;
     height: auto;
   }
+
   .btn-primary {
     width: 100%;
     max-width: 100%;
     padding: 15px 40px;
     font-size: 1rem;
   }
-  .flower-store{
+
+  .flower-store {
     flex-direction: column;
-    
+
   }
-  .badge{
+
+  .badge {
     display: none;
   }
-  .store-img{
-     width: 100%;
+
+  .store-img {
+    width: 100%;
     max-width: 100%;
     height: auto;
   }
-  .flower-store-right{
+
+  .flower-store-right {
     padding: 0 10px;
   }
-  .flower-store-right h1{
-  font-size: 2.5rem;
+
+  .flower-store-right h1 {
+    font-size: 2.5rem;
   }
-  
+
 }
