@@ -430,4 +430,17 @@ footer{
 .join-section input{
   padding: 10px 10px 10px 10px; 
 }
+footer{
+  grid-template-columns: 1fr;
+  padding: 10px;
+  /* align-items: start; */
+
+}
+.features-link {
+  margin-left: 0;
+}
+.icons{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
 }
