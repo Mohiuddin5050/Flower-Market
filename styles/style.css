@@ -384,4 +384,20 @@
   font-weight: 500;
   color: #fff;
 }
+.join-section{
+  height: 300px;
+  max-width: 100%;
+  width: 100%;
+  margin-top: 50px;
+}
+.join-section h2{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  padding-top: 80px;
+}
+.join-section input{
+  padding: 10px 10px 10px 10px; 
+}
 }
