@@ -255,11 +255,12 @@
   background-image: url("../assets/news-letter-bg.png");
   height: 500px;
   margin-top: 100px;
-  /* display: flex; */
   text-align: center;
   align-items: center;
   justify-items: center;
   margin-bottom: 50px;
+  background-size: cover;
+  background-position: center;
 }
 .join-section h2{
   font-size: 2.5rem;
@@ -279,6 +280,37 @@
   color: #FFFFFF;
   border: none;
   margin: -4px;
+}
+
+/* footer  section */
+footer{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-bottom: 50px;
+}
+.features-link{
+  margin-left: 80px;
+}
+.features-link ul li{
+  list-style: none;
+   margin-top: 30px;
+}
+.features-link ul li a{
+  text-decoration: none;
+  padding: 15px;
+  color: rgba(107, 114, 128, 1.00);
+ 
+}
+.icons{
+ align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.icons img{
+  margin-top: 10px;
+  margin-left: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
 /* responsive media query */
@@ -386,8 +418,6 @@
 }
 .join-section{
   height: 300px;
-  max-width: 100%;
-  width: 100%;
   margin-top: 50px;
 }
 .join-section h2{
