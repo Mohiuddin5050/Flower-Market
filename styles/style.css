@@ -74,7 +74,7 @@
 
 /* banner section  */
 .banner-section {
-  margin-top: 200px;
+  margin-top: 150px;
   margin-bottom: 100px;
   display: flex;
   /* text-align: left; */
@@ -170,6 +170,7 @@
   position: absolute;
   margin-top: -725px;
   margin-left: 350px;
+  filter: drop-shadow(3px 5px 1px rgba(0, 0, 0, 0.2));
 }
 
 .flower-store-right h1 {
@@ -202,7 +203,6 @@
   background-position: center;
   border-radius: 10px;
   height: 200px;
-  /* overflow: hidden; */
   color: white;
 }
 
@@ -348,7 +348,7 @@ footer{
   }
 
   .banner-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 30px;
     padding: 0 15px;
   }
@@ -374,6 +374,10 @@ footer{
     margin-top: 20px;
 
   }
+  .card-title {
+  font-size: 2rem;
+  }
+  
 
   .card-content img {
     width: 100%;
@@ -410,7 +414,7 @@ footer{
   }
 
   .flower-store-right h1 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
   .Plants-banner{
   display: grid;
@@ -449,6 +453,7 @@ footer{
 }
 footer{
   grid-template-columns: 1fr;
+  padding-left: 10px;
 }
 .features-link {
   margin-left: 0;
